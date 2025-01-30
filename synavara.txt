@@ -10,3 +10,7 @@ Piirangud/ограничения
 * NOT NULL  
 * UNIQUE
 * CHECK - выбор значений
+---------------------------------
+SQL - Structure Query Language
+* DDL - Data Definition Language - CREATE TABLE, ALTER TABLE, DROP TABLE
+* DML - Data Manipulation Language - INSERT TABLE, UPDATE, DELETE
