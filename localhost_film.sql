@@ -21,3 +21,9 @@ kirjeldus text)
 
 insert into uudised(uudiseTeema, kuupaev, autor, kirjeldus)
 values('udune ilm', '2024-02-06', 'postimees', 'Lõunani on udune ilm')
+--xampp routines
+begin
+select *from uudised;
+delete from uudised where uudisID=id;
+select * from uudised;
+end;
