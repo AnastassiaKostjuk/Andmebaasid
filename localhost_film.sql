@@ -1,3 +1,5 @@
+--xampp
+
 CREATE TABLE film(
 filmID int PRIMARY KEY AUTO_INCREMENT,
 filmNimetus varchar(30) not null,
