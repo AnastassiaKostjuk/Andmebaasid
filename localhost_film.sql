@@ -11,10 +11,13 @@ CREATE TABLE zanr(
 zanrID int PRIMARY KEY identity(1,1),
 zanrNimetus varchar(20) UNIQUE)
 
---xamp
+--xamp localhost
 create table uudised(
-uudisID int PRIMARY	 KEY identity(1,1),
+uudisID int PRIMARY	 auto_increment,
 uudiseTeema varchar(50),
 kuupaev date,
 autor varchar(25),
 kirjeldus text)
+
+insert into uudised(uudiseTeema, kuupaev, autor, kirjeldus)
+values('udune ilm', '2024-02-06', 'postimees', 'Lõunani on udune ilm')
