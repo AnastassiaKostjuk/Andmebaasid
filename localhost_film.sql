@@ -11,3 +11,10 @@ CREATE TABLE zanr(
 zanrID int PRIMARY KEY identity(1,1),
 zanrNimetus varchar(20) UNIQUE)
 
+--xamp
+create table uudised(
+uudisID int PRIMARY	 KEY identity(1,1),
+uudiseTeema varchar(50),
+kuupaev date,
+autor varchar(25),
+kirjeldus text)
